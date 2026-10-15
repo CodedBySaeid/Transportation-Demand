@@ -8,7 +8,7 @@ import math
 import numpy as np
 
 # Read the data
-df = pd.read_csv("./DATABASE1.csv")
+df = pd.read_csv("./Data/DATABASE1.csv")
 database = db.Database("PROJECT", df)
 
 # The following statement allows you to use the names of the variable
