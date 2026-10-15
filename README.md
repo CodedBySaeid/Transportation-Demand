@@ -81,19 +81,19 @@ The parameters are estimated through maximum likelihood using Biogeme.
 transportation-demand-model/
 │
 ├── DATABASE1.csv       # Input dataset (not necessarily included in the repository)
-├── main.py             # Model specification and estimation
+├── ModeChoice.py             # Model specification and estimation
 ├── README.md           # Project documentation
 └── .gitignore          # Files excluded from version control
 ```
 
-The Python script may be named differently in the repository. Update `main.py` in this structure to match the actual filename.
+The Python script may be named differently in the repository. Update `ModeChoice.py` in this structure to match the actual filename.
 
 ## Installation
 
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY.git
+git clone https://github.com/CodedBySaeid/Transportation-Demand.git
 cd YOUR-REPOSITORY
 ```
 
@@ -142,7 +142,7 @@ The variable names and alternative coding in the dataset must match those used i
 After installing the dependencies and placing the dataset in the expected location, run:
 
 ```bash
-python main.py
+python ModeChoice.py
 ```
 
 The script will:
