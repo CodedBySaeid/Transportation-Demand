@@ -10,7 +10,7 @@ import numpy as np
 # Read the data
 # print(ver.getText())
 
-df = pd.read_csv("./Database.csv")
+df = pd.read_csv("./Data/DATABASE1.csv")
 database = db.Database("PROJECT", df)
 
 # The following statement allows you to use the names of the variable
